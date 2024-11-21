@@ -10,5 +10,5 @@ To run my project on Windows :
 6. Launch your CLI and navigate to the project
 7. Execute the file by the command ```crystal guess_the_number_game.cr```
 
-###**Crimson GitHub link : https://github.com/crimson-crystal/crimson**
-###**Crystal documentation link : https://crystal-lang.org/reference/1.14/syntax_and_semantics/index.html**
+### **Crimson GitHub link : https://github.com/crimson-crystal/crimson**
+### **Crystal documentation link : https://crystal-lang.org/reference/1.14/syntax_and_semantics/index.html**
