@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: app
+  data:
+    mongodb:
+      uri: mongodb://admin:admin123@localhost:27017/mydatabase
+      database: mydatabase
+  docker:
+    compose:
+      file: dependencies/docker-compose.yaml
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+
+logging:
+  level:
+    org.springdoc: DEBUG
