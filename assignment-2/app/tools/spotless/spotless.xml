@@ -1,0 +1,22 @@
+<configuration>
+    <java>
+        <googleJavaFormat>
+            <style>AOSP</style> <!-- Utilise le style AOSP -->
+        </googleJavaFormat>
+    </java>
+
+    <kotlin>
+        <ktlint>
+            <version>0.50.0</version>
+        </ktlint>
+    </kotlin>
+
+    <misc>
+        <markdown>
+            <maxLineLength>80</maxLineLength>
+        </markdown>
+        <json>
+            <indentation>4</indentation>
+        </json>
+    </misc>
+</configuration>

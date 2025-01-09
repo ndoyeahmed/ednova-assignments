@@ -7,7 +7,7 @@ spring:
       database: mydatabase
   docker:
     compose:
-      file: dependencies/docker-compose.yaml
+      file: ./dependencies/docker-compose.yaml
 
 server:
   port: 8080

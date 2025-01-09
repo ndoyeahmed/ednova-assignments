@@ -1,5 +1,7 @@
 package ai.ednova.app.exceptions;
 
+import java.time.LocalDateTime;
+import java.util.UUID;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
@@ -8,60 +10,60 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.server.MethodNotAllowedException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import java.time.LocalDateTime;
-import java.util.UUID;
-
 @ControllerAdvice
 public class ExceptionInterceptor extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(AccessDeniedException.class)
     public ResponseEntity<String> handleAccessDeniedException(AccessDeniedException ex) {
-        return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Access Denied: " + ex.getMessage());
+        return ResponseEntity.status(HttpStatus.FORBIDDEN)
+                .body("Access Denied: " + ex.getMessage());
     }
 
-
     @ExceptionHandler(BadRequestException.class)
-    public final ResponseEntity<ExceptionSchema> handleBadRequestExceptions(BadRequestException ex) {
-        ExceptionSchema exceptionResponse = new ExceptionSchema(
-                HttpStatus.BAD_REQUEST.value(),
-                ex.getMessage(),
-                LocalDateTime.now(),
-                UUID.randomUUID().toString()
-        );
+    public final ResponseEntity<ExceptionSchema> handleBadRequestExceptions(
+            BadRequestException ex) {
+        ExceptionSchema exceptionResponse =
+                new ExceptionSchema(
+                        HttpStatus.BAD_REQUEST.value(),
+                        ex.getMessage(),
+                        LocalDateTime.now(),
+                        UUID.randomUUID().toString());
         return new ResponseEntity<>(exceptionResponse, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(InternalServerErrorException.class)
-    public final ResponseEntity<ExceptionSchema> handleInternalServerErrorExceptions(InternalServerErrorException ex) {
-        ExceptionSchema exceptionResponse = new ExceptionSchema(
-                HttpStatus.INTERNAL_SERVER_ERROR.value(),
-                ex.getMessage(),
-                LocalDateTime.now(),
-                UUID.randomUUID().toString()
-        );
+    public final ResponseEntity<ExceptionSchema> handleInternalServerErrorExceptions(
+            InternalServerErrorException ex) {
+        ExceptionSchema exceptionResponse =
+                new ExceptionSchema(
+                        HttpStatus.INTERNAL_SERVER_ERROR.value(),
+                        ex.getMessage(),
+                        LocalDateTime.now(),
+                        UUID.randomUUID().toString());
         return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     @ExceptionHandler(MethodNotAllowedException.class)
-    public final ResponseEntity<ExceptionSchema> handleMethodNotAllowedExceptions(MethodNotAllowedException ex) {
-        ExceptionSchema exceptionResponse = new ExceptionSchema(
-                HttpStatus.METHOD_NOT_ALLOWED.value(),
-                ex.getMessage(),
-                LocalDateTime.now(),
-                UUID.randomUUID().toString()
-        );
+    public final ResponseEntity<ExceptionSchema> handleMethodNotAllowedExceptions(
+            MethodNotAllowedException ex) {
+        ExceptionSchema exceptionResponse =
+                new ExceptionSchema(
+                        HttpStatus.METHOD_NOT_ALLOWED.value(),
+                        ex.getMessage(),
+                        LocalDateTime.now(),
+                        UUID.randomUUID().toString());
         return new ResponseEntity<>(exceptionResponse, HttpStatus.METHOD_NOT_ALLOWED);
     }
 
     // Gestionnaire d'exception générique
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<ExceptionSchema> handleAllExceptions(Exception ex) {
-        ExceptionSchema exceptionResponse = new ExceptionSchema(
-                HttpStatus.INTERNAL_SERVER_ERROR.value(),
-                "An unexpected error occurred: " + ex.getMessage(),
-                LocalDateTime.now(),
-                UUID.randomUUID().toString()
-        );
+        ExceptionSchema exceptionResponse =
+                new ExceptionSchema(
+                        HttpStatus.INTERNAL_SERVER_ERROR.value(),
+                        "An unexpected error occurred: " + ex.getMessage(),
+                        LocalDateTime.now(),
+                        UUID.randomUUID().toString());
         return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

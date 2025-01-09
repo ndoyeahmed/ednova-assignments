@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07a9abe8-b06d-4c98-9686-a40de35e92fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/.idea/assignement-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-4/api_contracts_college.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/refactoring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/src/com/company/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignement-5/refactoring/src/com/company/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment-2/app/tools/spotless/spotless.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/LeetCodeStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_structure/stack/LeetCodeStack/src/Solution20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/controller/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/controller/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/ExceptionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/ExceptionInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/ExceptionSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/ExceptionSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/InternalServerErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/java/ai/ednova/app/exceptions/InternalServerErrorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-2/app/src/test/java/ai/ednova/app/AppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-2/app/src/test/java/ai/ednova/app/AppApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2rPB3lJHAVhWr9EAjojFKSbcq21" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07a9abe8-b06d-4c98-9686-a40de35e92fa" name="Changes" comment="" />
+      <created>1736450633942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736450633942</updated>
+    </task>
+    <servers />
+  </component>
+</project>
