@@ -1,0 +1,12 @@
+#!/bin/bash
+
+AUTHOR_EMAIL=$(git config user.email)
+
+if ! [[ $AUTHOR_EMAIL =~ "@gmail.com"$ ]]; then
+    echo "Error: Commit rejected. Author email must end with '@gmail.com'."
+    exit 1
+fi
+
+
+
+exit 0
